@@ -1,5 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
+import NavigationBar from "./NavigationBar"
 
 
 
@@ -30,7 +31,7 @@ const ViewEntry= () => {
 
 return (
     <div>
-      
+      <NavigationBar/>
         <table class="table">
             <thead>
                 <tr>
